@@ -24,3 +24,39 @@ This project involves creating a React-based shopping cart application with a ho
   <li><strong>Testing:</strong> Uses React Testing Library to ensure the functionality of components.</li>
   <li><strong>Deployment:</strong> Configured for deployment on Netlify, Vercel, or Cloudflare Pages.</li>
 </ul>
+To run this React app in your web browser, follow these steps:
+
+Ensure you have Node.js and npm installed: You can check this by running the following commands in your terminal:
+
+bash
+Copy code
+node -v
+npm -v
+If you don’t have them installed, download and install Node.js from https://nodejs.org/, which includes npm.
+
+Navigate to your project directory: Open your terminal or command prompt and navigate to the root of your project:
+
+bash
+Copy code
+cd cd odin-shoppingcart-react-app
+Install dependencies: Run the following command to install all the necessary dependencies specified in your package.json:
+
+bash
+Copy code
+npm install
+Start the development server: Run the following command to start your development server using Vite:
+
+bash
+Copy code
+npm run dev
+Open the app in your browser: After running the npm run dev command, you should see output in your terminal that looks like this:
+
+arduino
+Copy code
+VITE vX.X.X  ready in Xs
+
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+Open your browser and navigate to the URL shown under Local, usually http://localhost:5173.
+
+Your React app should now be running in your browser! Any changes you make to your code should automatically be reflected in the browser thanks to hot-reloading.
